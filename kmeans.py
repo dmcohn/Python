@@ -3,24 +3,6 @@
 """
 Created on Wed Oct 21 18:16:48 2015
 
-David Cohn 
-BMI 214
-Project 2, Part B
-Dr. Russ Altman
-
-This project implements the unsupervised machine learning algorithm kmeans to 
-try to derive meaningful clusters from inputted expression data. Depending on the
-user's choice, the program either randomly generates k intial centroids, or reads
-in k centroids from a user input file. From there, the algorithm assigns all of the 
-genes to one of the clusters represented by a centroid. Next, the centroids are recalculated
-to reflect the average of all of the vectors in that cluster. In turn, this cycle of
-assignment and centroid updating continues until either the maximum number of iterations
-is completed, or until none of the vectors change clusters. From there, the gene number and cluster assignment
-for each gene is outputted to an output file, while the number of iterations is outputted to the screen using
-stdout.
-
-Comments below will describe the submethods that help execute this algorithm.
-
 @author: David
 """
 import sys
