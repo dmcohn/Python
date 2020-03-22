@@ -2,19 +2,7 @@
 #!/usr/bin/python
 """
 David Cohn 
-BMI 214/CS 274 
 Fall 2015
-Project 2, Part A
-Dr. Russ Altman
-
-This part of Project 2 implements the supervised machine learning algorithm 
-k-nearest neighbors (KNN). This project takes in expression_data, or vectors of
-data, associated with two phenotypes (namely, "positive" and "negative" phenotypes),
-divides the data into n-groups in order to perform n-fold cross validation, and
-determines the performance of the KNN algorithm in classifying a single fold of
-combined positive and negative test data according to their proper phenotype. 
-Comments below will detail the submethods that make up this algorithm, while
-describing the overall process and methodology.
 
 """
 import sys
